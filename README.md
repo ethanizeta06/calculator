@@ -1,1 +1,1 @@
-# calculator
+Simple calculator made using vanilla JavaScript html and css with basic functionality and a display that displays the results.
