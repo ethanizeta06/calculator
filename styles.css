@@ -3,4 +3,58 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center ;  
+    background-color: #d1c0c0;
+}
+h1{
+    color: #533b3b;
+    margin-bottom: 40px;
+}
+.calculator{
+    width: 50vw;
+    height: 70vh;
+    background-color: rgb(124, 107, 107);
+}
+.first-row{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.screen{
+    height: 10vh;
+    background-color: #533b3b;
+    text-align: left;
+    align-content:center;
+    font-size: large;
+    padding-left: 15px;
+    overflow: hidden;
+    margin-bottom: 10px;
+    color: white;
+}
+.clear{
+    width: 10vw;
+    background-color:#533b3b ;
+    color: white;
+    padding: 5px;
+}
+.other-rows{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.other-rows button{
+    margin: 5px;
+    padding: 10px;
+}
+.number{
+    background-color: #533b3b;
+    color: white;
+}
+.operator{
+    background-color: rgba(214, 191, 191, 0.767);
+}
+.equal,.decimal{
+    background-color: rgba(196, 148, 148, 0.63);
 }
